@@ -33,12 +33,14 @@ Before using this generator you first need to install it. Even before that make 
 **2.** Open gitbash and *'cd'* into the directory you'd like it cloned**
    
 **3.** type *'git clone'* and then paste the url previously copied and hit enter
+
+**4.** *'cd'* into the read-me-generator directory
    
-**4.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type *'npm init -y'*
+**5.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type *'npm init -y'*
    
-**5.** Next - Install the inquirer by typing *'npm install inquirer'* into the command line**
+**6.** Next - Install the inquirer by typing *'npm install inquirer'* into the command line**
    
-**6.** Lastly, once the inquirer has finished install the fs by typing *'npm install fs'* into the command line.
+**7.** Lastly, once the inquirer has finished install the fs by typing *'npm install fs'* into the command line.
 
 
 ![how to (1)](https://github.com/Goobergreve09/read-me-generator/assets/143923830/960a49f2-9545-4722-a2e9-07b7a7c99260)
