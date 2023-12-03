@@ -2,7 +2,7 @@
   
 ## Description
 
-A readME.md is a very important aspect to your project. It is also the go-to file for anyone to open or view your project. I have created an easy way to makeup a readME.md by only answering a few prompts. All of the information about your Github project will be accessed here.
+A readME.md is a very important aspect to your project. It is also the go-to file for anyone to open or view your project. I have created an easy way to makeup a readME.md by only answering a few prompts in the terminal. All of the information about your Github project will be accessed here.
 
 
 The motivating factor to creating this generator was so programmers and coders can save the necessary energy and put it into creating code and enhancing projects. Rather than putting that time into making a high quality readME.md, you can focus on the code, I'll take care of the readME.md.
