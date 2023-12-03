@@ -38,7 +38,7 @@ Before using this generator you first need to install it. Even before that make 
    
 **5.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type *'npm init -y'*
    
-**6.** Next - Install the inquirer by typing *'npm install inquirer'* into the command line**
+**6.** Next - Install the inquirer by typing *'npm install inquirer'* into the command line
    
 **7.** Lastly, once the inquirer has finished install the fs by typing *'npm install fs'* into the command line.
 
