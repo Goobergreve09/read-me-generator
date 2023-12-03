@@ -28,15 +28,15 @@ Before using this generator you first need to install it. Even before that make 
 
 **1.** Clone the code preferrably using an SSH from the green button that says *'Code'* at the top of this page
   
-2. Open gitbash and *'cd'* into the directory you'd like it cloned**
+**2.** Open gitbash and *'cd'* into the directory you'd like it cloned**
    
-3. type *'git clone'* and then paste the url previously copied and hit enter
+**3.** type *'git clone'* and then paste the url previously copied and hit enter
    
-4. You'll need to install the Node Package manager because it does not come with the copied code. in the command line type *'npm init -y'*
+**4.** You'll need to install the Node Package manager because it does not come with the copied code. in the command line type *'npm init -y'*
    
-5. Next - Install the inquirer by typing *'npm install inquirer'* into the command line**
+**5.** Next - Install the inquirer by typing *'npm install inquirer'* into the command line**
    
-6. Lastly, once the inquirer has finished install the fs by typing *'npm install fs'* into the command line.
+**6.** Lastly, once the inquirer has finished install the fs by typing *'npm install fs'* into the command line.
 
 
 
