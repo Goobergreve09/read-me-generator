@@ -30,7 +30,7 @@ Before using this generator you first need to install it. Even before that make 
 
   ![code test](https://github.com/Goobergreve09/read-me-generator/assets/143923830/48d21976-774e-4b38-ba6c-dfc6e2e092c6)
   
-**2.** Open gitbash and *'cd'* into the directory you'd like it cloned**
+**2.** Open gitbash and *'cd'* into the directory you'd like it cloned
    
 **3.** type *'git clone'* and then paste the url previously copied and hit enter
 
