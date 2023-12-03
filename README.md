@@ -45,12 +45,17 @@ Before using this generator you first need to install it. Even before that make 
 Now that you have all the necessary files and applications installed, it's finally time to generator your own high-quality readME.md. In VS.code *Follow these steps.*
 
 
-1. Navigate to the directory of your project and of the copied files
-2. Right-Click on the javascript file titled *'index.js'* and click *'Open Integrated Terminal'*
-3. type *'node index.js'* into the command line
-4. Answer the prompts in the command line - Keep in mind these answers are the content of your readME.md file.
-5. Once finished you will see 'README.md created successfully' in green text
-6. Lastly, checkover your new generated readME.md and make changes directly in the created file as needed!
+**1.** Navigate to the directory of your project and of the copied files
+   
+**2.** Right-Click on the javascript file titled *'index.js'* and click *'Open Integrated Terminal'*
+
+**3.** type *'node index.js'* into the command line
+
+**4.** Answer the prompts in the command line - Keep in mind these answers are the content of your readME.md file.
+  
+**5.** Once finished you will see 'README.md created successfully' in green text
+
+**6.** Lastly, checkover your new generated readME.md and make changes directly in the created file as needed!
 
 
 ## Contributions
