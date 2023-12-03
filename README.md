@@ -40,6 +40,8 @@ Before using this generator you first need to install it. Even before that make 
 
 ![code test](https://github.com/Goobergreve09/read-me-generator/assets/143923830/48d21976-774e-4b38-ba6c-dfc6e2e092c6)
 
+![how to (1)](https://github.com/Goobergreve09/read-me-generator/assets/143923830/960a49f2-9545-4722-a2e9-07b7a7c99260)
+
 
 
 ## Usage
