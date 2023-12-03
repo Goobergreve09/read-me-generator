@@ -27,6 +27,8 @@ Before using this generator you first need to install it. Even before that make 
 
 
 **1.** Clone the code preferrably using an SSH from the green button that says *'Code'* at the top of this page
+
+  ![code test](https://github.com/Goobergreve09/read-me-generator/assets/143923830/48d21976-774e-4b38-ba6c-dfc6e2e092c6)
   
 **2.** Open gitbash and *'cd'* into the directory you'd like it cloned**
    
@@ -38,7 +40,6 @@ Before using this generator you first need to install it. Even before that make 
    
 **6.** Lastly, once the inquirer has finished install the fs by typing *'npm install fs'* into the command line.
 
-![code test](https://github.com/Goobergreve09/read-me-generator/assets/143923830/48d21976-774e-4b38-ba6c-dfc6e2e092c6)
 
 ![how to (1)](https://github.com/Goobergreve09/read-me-generator/assets/143923830/960a49f2-9545-4722-a2e9-07b7a7c99260)
 
