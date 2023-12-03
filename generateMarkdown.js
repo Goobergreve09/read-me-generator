@@ -2,38 +2,37 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const badges = [
-    '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-    '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
-    '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
-    '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
-    '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)',
-    '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)',
-    '[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)',
-    '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
-    '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'
+    "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+    "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+    "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)",
+    "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)",
+    "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)",
+    "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+    "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+  ];
 
-]
-
-  if (license === 'MIT') {
+  if (license === "MIT") {
     return badges[0];
-  } else if (license === 'GPL v3') {
+  } else if (license === "GPL v3") {
     return badges[1];
-  } else if (license === 'Apache 2.0') {
+  } else if (license === "Apache 2.0") {
     return badges[2];
-  } else if (license === 'ISC') {
+  } else if (license === "ISC") {
     return badges[3];
-  } else if (license === 'GNU AGPL v3') {
-  return badges[4];
-  } else if (license === 'The Unlicense') {
-    return badges [5];
-  } else if (license === 'WTFPL') {
-    return badges [6];
-  } else if (license === 'Mozilla Public License 2.0') {
-    return badges [7];
-  } else if (license === 'BSD 3-Clause') {
-    return badges [8];
+  } else if (license === "GNU AGPL v3") {
+    return badges[4];
+  } else if (license === "The Unlicense") {
+    return badges[5];
+  } else if (license === "WTFPL") {
+    return badges[6];
+  } else if (license === "Mozilla Public License 2.0") {
+    return badges[7];
+  } else if (license === "BSD 3-Clause") {
+    return badges[8];
   }
-  return ''; // If no valid license is provided, return an empty string
+  return ""; // If no valid license is provided, return an empty string
 }
 
 // TODO: Create a function that returns the license link
@@ -96,7 +95,7 @@ If you have any additional questions you can contact me by using the following:
  Email Address: ${answers.email}
 
 
-`}
+`;
+}
 
-module.exports = generateMarkdown;//Gives access to this function in any files necessary
-
+module.exports = generateMarkdown; //Gives access to this function in any files necessary

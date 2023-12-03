@@ -58,9 +58,9 @@ Now that you have all the necessary files and applications installed, it's final
 **6.** Lastly, checkover your new generated readME.md and make changes directly in the created file as needed!
 
 
-## Contributions
+## Credits
 
-N/A
+Greg Greve
 
 
 ## License
@@ -77,8 +77,8 @@ MIT
 
 If you have any additional questions you can contact me by using the following:
 
- Github Profile: [](https://www.github.com/)
+ Github Profile: [Goobergreve09](https://www.github.com/)
 
- Email Address: 
+ Email Address: gregory.greve@yahoo.com
 
 
