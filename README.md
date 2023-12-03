@@ -68,6 +68,13 @@ Now that you have all the necessary files and applications installed, it's final
 ![Capturesc](https://github.com/Goobergreve09/read-me-generator/assets/143923830/32811c03-8aed-4b1a-981e-21218bff5660)
 
 
+## Demonstration
+
+You can view a short video demonstration via a chrome extension by clicking *'Demo Link'* below:
+
+[Demo Link]([chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/67f298e8-31c0-43a3-ye2d-5a8dd3e4a972](https://drive.google.com/file/d/1eaIehNuph8wPMdES8e4oUlQIAwlJiLHY/view)https://drive.google.com/file/d/1eaIehNuph8wPMdES8e4oUlQIAwlJiLHY/view)
+
+
 
 ## Credits
 
