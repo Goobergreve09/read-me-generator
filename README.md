@@ -23,7 +23,7 @@ The motivating factor to creating this generator was so programmers and coders c
 ## Installation
 
 
-Before using this generator you first need to install it. Even before that make sure you have VS-Code, Gitbash, as well as the latest version of node.js already installed onto your pc. If you have those 3 already installed, *Follow these steps:*
+Before using this generator you first need to install it. Even before that make sure you have **VS-Code**, **Gitbash**, as well as the latest version of **node.js** already installed onto your pc. If you have those 3 already installed, *Follow these steps:*
 
 
 **1.** Clone the code preferrably using an SSH from the green button that says *'Code'* at the top of this page
@@ -47,7 +47,7 @@ Before using this generator you first need to install it. Even before that make 
 
 ## Usage
 
-Now that you have all the necessary files and applications installed, it's finally time to generator your own high-quality readME.md. In VS.code *Follow these steps.*
+Now that you have all the necessary files and applications installed, it's finally time to generate your own high-quality readME.md. In VS.code *Follow these steps.*
 
 
 **1.** Navigate to the directory of your project and of the copied files
