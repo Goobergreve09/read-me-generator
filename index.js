@@ -1,6 +1,5 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const fs = require('fs');
 const { writeFile } = require('fs').promises;
 
 const license = [
@@ -19,7 +18,6 @@ const license = [
 const fileName  = 'README.md';
 
 const generateMarkdown = require('./generateMarkdown'); //imports an finds the function named generateMarkdown from another file
-const renderLicenseBadge = require('./generateMarkdown');
 
 const enter = "Type 'Enter' to skip or save.";
 const arrowKeys = "Use Arrow Keys to Navigate Licenses."
@@ -88,26 +86,11 @@ const promptUser = () => {
 };
 
 
-// inquirer.prompt(questions)
-//   .then((answers) => {
-   
-//     const markdownContent = generateMarkdown(answers);
-
- 
-
-
-
-// // TODO: Create a function to write README file
-// fs.writeFile(fileName, markdownContent, (err) =>
-//     err ? console.log(err) : console.log(`${successGreen}`)
-// );
-// });
-
 // TODO: Create a function to initialize app
     const init = () => {
         promptUser()
           .then((answers) => writeFile(fileName, generateMarkdown(answers)))
-          .then(() => console.log('Successfully wrote to readME.md'))
+          .then(() => console.log(`${successGreen}`))
           .catch((err) => console.error(err));
       };
       
