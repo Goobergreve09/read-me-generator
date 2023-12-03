@@ -11,14 +11,17 @@ The motivating factor to creating this generator was so programmers and coders c
   
 ## Table of Contents
 
+
 1. [Description](#description) 
 2. [How to Install](#installation)
 3. [How to Use](#usage)
 4. [Licensing](#license)
 5. [Testing](#tests)
 6. [Contact Me](#questions)
+   
 
 ## Installation
+
 
 Before using this generator you first need to install it. Even before that make sure you have VS-Code, Gitbash, as well as the latest version of node.js already installed onto your pc. If you have those 3 already installed, Follow these steps:
 
@@ -34,10 +37,20 @@ Before using this generator you first need to install it. Even before that make 
 
 ## Usage
 
+Now that you have all the necessary files and applications installed, it's finally time to generator yur own hgh-quality readME.md. In VS.code follow these steps.
+
+
+1. Navigate to the directory of your project and of the copied files
+2. Right-Click on the javascript file titled 'index.js' and click 'Open Integrated Terminal'
+3. type 'node index.js' into the command line
+4. Answer the prompts in the command line - Keep in mind these answers are the content of your readME.md file.
+5. Once finished you will see 'README.md created successfully' in green text
+6. Lastly, checkover your new generateed readME.md and make changes directly in the created file as needed!
 
 
 ## Contributions
 
+N/A
 
 
 ## License
