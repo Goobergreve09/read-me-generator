@@ -57,6 +57,9 @@ Now that you have all the necessary files and applications installed, it's final
 
 **6.** Lastly, checkover your new generated readME.md and make changes directly in the created file as needed!
 
+![Capturesc](https://github.com/Goobergreve09/read-me-generator/assets/143923830/32811c03-8aed-4b1a-981e-21218bff5660)
+
+
 
 ## Credits
 
