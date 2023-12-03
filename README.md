@@ -38,6 +38,8 @@ Before using this generator you first need to install it. Even before that make 
    
 **6.** Lastly, once the inquirer has finished install the fs by typing *'npm install fs'* into the command line.
 
+![code test](https://github.com/Goobergreve09/read-me-generator/assets/143923830/48d21976-774e-4b38-ba6c-dfc6e2e092c6)
+
 
 
 ## Usage
