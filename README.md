@@ -26,7 +26,7 @@ The motivating factor to creating this generator was so programmers and coders c
 Before using this generator you first need to install it. Even before that make sure you have VS-Code, Gitbash, as well as the latest version of node.js already installed onto your pc. If you have those 3 already installed, *Follow these steps:*
 
 
-1. Clone the code preferrably using an SSH from the green button that says 'Code' at the top of this page
+**1. Clone the code preferrably using an SSH from the green button that says 'Code' at the top of this page**
 2. Open gitbash and 'cd' into the directory you'd like it cloned**
 3. type 'git clone' and then paste the url previously copied and hit enter**
 4. You'll need to install the Node Package manager because it does not come with the copied code. in the command line type 'npm init -y'
