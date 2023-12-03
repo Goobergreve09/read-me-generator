@@ -40,11 +40,11 @@ const promptUser = () => {
       {
         type:'input',
         name: 'email',
-        message: `What is your E-mail address? ${enterYellow}\n`
+        message: `\nWhat is your E-mail address? ${enterYellow}\n`
       },
     {  type: 'input',
     name: 'title',
-    message: `What is a good title for your project? ${enterYellow}\n`
+    message: `\nWhat is a good title for your project? ${enterYellow}\n`
   } ,
   {
     type:'input',
@@ -55,11 +55,6 @@ const promptUser = () => {
     type:'input',
     name: 'motivation',
     message: `\nWhat was your motivation for this project? ${enterYellow}\n`
-  },
-  {
-    type:'input',
-    name: 'tableOfcontents',
-    message: `\nA table of Contents will be created here once prompt is completed. ${enterYellow}\n`
   },
   {
     type:'input',
