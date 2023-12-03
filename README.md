@@ -72,7 +72,7 @@ Now that you have all the necessary files and applications installed, it's final
 
 You can view a short video demonstration via a chrome extension by clicking *'Demo Link'* below:
 
-[Demo Link](https://www.youtube.com/watch?v=BTuuszrjc0A)
+[Demo Link](https://www.youtube.com/watch?v=RulUlfdjPnU)
 
 
 
