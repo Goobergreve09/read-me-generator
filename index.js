@@ -12,6 +12,7 @@ const license = [
   "WTFPL",
   "Mozilla Public License 2.0",
   "BSD 3-Clause",
+  "No License"
 ];
 
 const fileName = "README.md";
