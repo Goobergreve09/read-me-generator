@@ -111,7 +111,7 @@ The software license selected for this application *is as follows*:
 
 If you have any additional questions you can contact me by using the following:
 
- Github Profile: [Goobergreve09](https://www.github.com/) *Your Github username will display here*
+ Github Profile: [Goobergreve09](https://www.github.com/) *(Your Github username will display here)*
 
- Email Address: gregory.greve@yahoo.com *Your Email will display here*
+ Email Address: gregory.greve@yahoo.com *(Your Email will display here)*
 
