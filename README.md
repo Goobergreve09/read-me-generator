@@ -22,8 +22,7 @@ The motivating factor to creating this generator was so programmers and coders c
 2. [How to Install](#installation)
 3. [How to Use](#usage)
 4. [Licensing](#license)
-5. [Testing](#tests)
-6. [Contact Me](#questions)
+5. [Contact Me](#questions)
    
 
 ## Installation
