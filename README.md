@@ -1,5 +1,8 @@
 # ReadME Generator
   
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 ## Description
 
 A readME.md is a very important aspect to your project. It is also the go-to file for anyone to open or view your project. I have created an easy way to makeup a readME.md by only answering a few prompts in the terminal. All of the information about your Github project will be accessed here.
@@ -83,9 +86,13 @@ Greg Greve
 
 ## License
 
-MIT
+The software license selected for this application *is as follows*:
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+**Massachusetts Institute of Technology License**
+
+[MIT](https://opensource.org/licenses/MIT)
+
+
 
 
 ## Questions

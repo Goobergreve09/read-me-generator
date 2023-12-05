@@ -15,21 +15,21 @@ function renderLicenseBadge(license) {
 
   if (license === "MIT") {
     return badges[0];
-  } else if (license === "GPL v3") {
+  } else if (license === "GPL - 3.0") {
     return badges[1];
-  } else if (license === "Apache 2.0") {
+  } else if (license === "Apache - 2.0") {
     return badges[2];
   } else if (license === "ISC") {
     return badges[3];
-  } else if (license === "GNU AGPL v3") {
+  } else if (license === "AGPL - 3.0") {
     return badges[4];
-  } else if (license === "The Unlicense") {
+  } else if (license === "Unlicense") {
     return badges[5];
   } else if (license === "WTFPL") {
     return badges[6];
-  } else if (license === "Mozilla Public License 2.0") {
+  } else if (license === "MPL - 2.0") {
     return badges[7];
-  } else if (license === "BSD 3-Clause") {
+  } else if (license === "BSD-3-Clause") {
     return badges[8];
   }
   return ""; // If no valid license is provided, return an empty string
@@ -37,59 +37,56 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
 function renderLicenseLink(license) {
   const links = [
-    "(https://opensource.org/licenses/MIT)",
-    "(https://www.gnu.org/licenses/gpl-3.0)",
-    "(https://opensource.org/licenses/Apache-2.0)",
-    "(https://opensource.org/licenses/ISC)",
-    "(https://www.gnu.org/licenses/agpl-3.0)",
-    "(http://unlicense.org/)",
-    "(http://www.wtfpl.net/about/)",
-    "(https://opensource.org/licenses/MPL-2.0)",
-    "(https://opensource.org/licenses/BSD-3-Clause)"
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**Massachusetts Institute of Technology License**\n\n[${license}](https://opensource.org/licenses/MIT)`,
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**GNU General Public License v3.0**\n\n[${license}](https://www.gnu.org/licenses/gpl-3.0)`,
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**Apache license 2.0**\n\n[${license}](https://opensource.org/licenses/Apache-2.0)`,
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**Internet Software Consortium License**\n\n[${license}](https://opensource.org/licenses/ISC)`,
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**GNU Affero General Public License v3.0**\n\n[${license}](https://www.gnu.org/licenses/agpl-3.0)`,
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**The Unlicense**[${license}](http://unlicense.org/)`,
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**Do What The Fu*k You Want To Public License**\n\n[${license}](http://www.wtfpl.net/about/)`,
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**Mozilla Public License 2.0**\n\n[${license}](https://opensource.org/licenses/MPL-2.0)`,
+    `## License\n\nThe software license selected for this application *is as follows*:\n\n**BSD 3-clause "New" or "Revised"** license\n\n[${license}](https://opensource.org/licenses/BSD-3-Clause)`
   ]
 
   if (license === "MIT") {
     return links[0];
-  } else if (license === "GPL v3") {
+  } else if (license === "GPL - 3.0") {
     return links[1];
-  } else if (license === "Apache 2.0") {
+  } else if (license === "Apache - 2.0") {
     return links[2];
   } else if (license === "ISC") {
     return links[3];
-  } else if (license === "GNU AGPL v3") {
+  } else if (license === "AGPL - 3.0") {
     return links[4];
-  } else if (license === "The Unlicense") {
+  } else if (license === "Unlicense") {
     return links[5];
   } else if (license === "WTFPL") {
-    return badges[6];
-  } else if (license === "Mozilla Public License 2.0") {
+    return links[6];
+  } else if (license === "MPL - 2.0") {
     return links[7];
-  } else if (license === "BSD 3-Clause") {
+  } else if (license === "BSD-3-Clause") {
     return links[8];
   }
   return ""; // If no valid license is provided, return an empty string
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license, licenseLink, licenseBadge, licenseTitle) {
-  if (license === "No License") {
-    return ""; // Return an empty string if no license is provided
-  }
 
-  const renderedLicenseSection = `${licenseTitle}\n\nThe license selected for this application is as follows: [${license}](${licenseLink})\n\n`;
-
-  return renderedLicenseSection;
+function renderLicensehref(license) {
+if(license === "No License") {
+  return "## Table of Contents\n\n1. [Description](#description)  \n2. [How to Install](#installation)  \n3. [How to Use](#usage)  \n4. [Testing](#tests)  \n5. [Contact Me](#questions)";
 }
 
-
+return "## Table of Contents\n\n1. [Description](#description)  \n2. [How to Install](#installation)  \n3. [How to Use](#usage)  \n4. [Licensing](#license)  \n5. [Testing](#tests)  \n6. [Contact Me](#questions)";
+}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
   const licenseBadge = renderLicenseBadge(answers.license);
-  const licenseLink = renderLicenseLink(license);
-const licenseTitle = "## License"
+  const licenseLink = renderLicenseLink(answers.license)
+  const licenseHref = renderLicensehref(answers.license)
   return `# ${answers.title}
 
   ${licenseBadge}
@@ -101,14 +98,7 @@ ${answers.description}
 
 ${answers.motivation}
   
-## Table of Contents
-
-1. [Description](#description) 
-2. [How to Install](#installation)
-3. [How to Use](#usage)
-4. [Licensing](#license)
-5. [Testing](#tests)
-6. [Contact Me](#questions)
+${licenseHref}
 
 ## Installation
 
@@ -122,11 +112,9 @@ ${answers.usage}
 
 ${answers.credits}
 
-## License
 
-The license selected for this application is as follows: *click the link for further information*
+${licenseLink}
 
-[${answers.license}]${licenseLink}
 
 
 ## Tests

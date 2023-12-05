@@ -4,14 +4,14 @@ const { writeFile } = require("fs").promises;
 
 const license = [
   "MIT",
-  "GPL v3",
-  "Apache 2.0",
+  "GPL - 3.0",
+  "Apache - 2.0",
   "ISC",
-  "GNU AGPL v3",
-  "The Unlicense",
+  "AGPL - 3.0",
+  "Unlicense",
   "WTFPL",
-  "Mozilla Public License 2.0",
-  "BSD 3-Clause",
+  "MPL - 2.0",
+  "BSD-3-Clause",
   "No License"
 ];
 
