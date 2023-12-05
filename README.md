@@ -96,6 +96,7 @@ Greg Greve
 *This is the area where the license you select will show, if you don't choose a license, that will also be integrated.*
 
 
+
 The software license selected for this application *is as follows*:
 
 **Massachusetts Institute of Technology License**
