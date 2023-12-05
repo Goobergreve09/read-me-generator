@@ -1,6 +1,6 @@
 # ReadME Generator
 
-  *The badge for the license ill be displayed at the top of your readME here.*
+  *The badge for the license will be displayed at the top of your readME.*
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
