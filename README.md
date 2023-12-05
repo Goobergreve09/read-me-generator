@@ -1,12 +1,12 @@
 # ReadME Generator
 
-  *The badge fo the license ill be displayed at the ttp of your readME here
+  *The badge for the license ill be displayed at the top of your readME here.*
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Description
-*This is where you will explain the ABOUT your application or project. What exactlydi you create?*
+*This is where you will explain the ABOUT your application or project. What exactly did you create?*
 
 A readME.md is a very important aspect to your project. It is also the go-to file for anyone to open or view your project. I have created an easy way to makeup a readME.md by only answering a few prompts in the terminal. All of the information about your Github project will be accessed here.
 
@@ -17,7 +17,7 @@ The motivating factor to creating this generator was so programmers and coders c
   
 ## Table of Contents
 
-*Your readME.md will come with a table of Contents so users can easily navigate the content*
+*Your readME.md will come with a table of Contents so users can easily navigate the content.*
 
 1. [Description](#description) 
 2. [How to Install](#installation)
@@ -28,7 +28,7 @@ The motivating factor to creating this generator was so programmers and coders c
    
 
 ## Installation
-*This section is where you will explain how yor application can be installed*
+*This section is where you will explain how your application can be installed.*
 
 
 Before using this generator you first need to install it. Even before that make sure you have [**VS-Code**](https://code.visualstudio.com/download), [**Gitbash**](https://gitforwindows.org/), as well as the latest version of [**node.js**](https://nodejs.org/en/download) already installed onto your pc. If you have those 3 already installed, *Follow these steps:*
@@ -57,7 +57,7 @@ Before using this generator you first need to install it. Even before that make 
 
 
 ## Usage
-*This section is where you will explain to others how to use your application*
+*This section is where you will explain to others how to USE your application.*
 
 
 Now that you have all the necessary files and applications installed, it's finally time to generate your own high-quality readME.md. In VS.code *Follow these steps.*
@@ -106,6 +106,7 @@ The software license selected for this application *is as follows*:
 
 
 ## Questions
+*An area for users to have access to your information if they have any questions about your application*
 
 If you have any additional questions you can contact me by using the following:
 
